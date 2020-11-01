@@ -111,7 +111,7 @@ UI.prototype.mostrarResultado = (total, seguro) => {
         <p class="header">Tu Resumen</p>
         <p class="font-bold">Marca: <span class="font-normal">${textoMarca}</span></p>
         <p class="font-bold">Año: <span class="font-normal">${seguro.year}</span></p>
-        <p class="font-bold">tipo: <span class="font-normal capitalize">${seguro.tipo}</span></p>
+        <p class="font-bold">Tipo: <span class="font-normal capitalize">${seguro.tipo}</span></p>
         <p class="font-bold">Total: <span class="font-normal">$${total}</span></p>
     `;
     const resultadoDiv = document.querySelector('#resultado');
